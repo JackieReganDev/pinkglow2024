@@ -2665,6 +2665,13 @@ input, select, textarea {
 			margin-left: 2em;
 		}
 
+		@media screen and (max-width: 736px) {
+
+			video {
+				width: 50%;
+			}
+		}
+
 /* Actions */
 
 	ul.actions {
