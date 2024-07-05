@@ -66,7 +66,7 @@
               <h2>We're moving!</h2>
               <p>
                 Pink Glow Facial Room is now located at 52 A Main Street in
-                Manasquan, NJ. Stay tuned for the Grand Opening in July of 2024!
+                Manasquan, NJ. Stay tuned for the Grand Opening August 1st, 2024!
               </p>
               <!-- <ul class="actions">
                 <li><a href="generic.html" class="button">Learn more</a></li>
@@ -203,14 +203,15 @@
           <div class="split style1">
             <section>
               <form
+                netlify
                 method="post"
                 action="mailto:pinkglowfacial@yahoo.com"
-                netlify
+                
               >
                 <div class="fields">
                   <div class="field half">
                     <label for="name">Name</label>
-                    <input type="text" name="name" id="name" />
+                    <input type="hidden" type="text" name="name" id="name" />
                   </div>
                   <div class="field half">
                     <label for="email">Email</label>
