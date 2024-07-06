@@ -3211,6 +3211,10 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+			.inner{
+				border-bottom: 2px solid #70480D;
+			}
+
 /* Wrapper */
 
 	.wrapper {
