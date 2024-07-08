@@ -3211,9 +3211,10 @@ input, select, textarea {
 				border-top: 0;
 			}
 
-			.inner{
-				border-bottom: 2px solid #70480D;
-			}
+			
+		#four{
+			border-bottom: 2px solid #70480D;
+		}
 .left{
 	padding-bottom: 50px;
 }
@@ -3360,7 +3361,7 @@ input, select, textarea {
 		}
 
 #four{
-	height: 500px;
+	height: 560px;
 }
 		.wrapper.fade-down.inactive > .inner,
 		body.is-preload .wrapper.fade-down > .inner {
@@ -3386,17 +3387,24 @@ input, select, textarea {
 
 /* Header */
 
+		a.img::before{
+			border-bottom: 2px solid #70480D;
+		}
+		a.img::after{
+			border-bottom: 2px solid #70480D;
+		}
+
 		.main-logo img{
 			height: 30%;
 			width: 30%;
 			border-radius: 50%;
-			border: 2.5px solid #70480D;
+			border: 2px solid #70480D;
 		}
 	 .nav-logo img{
 		height: 50%;
 		width: 50%;
 		border-radius: 50%;
-		border: 2.5px solid #70480D;
+		border: 2px solid #70480D;
 	 }
 
 	#header {
