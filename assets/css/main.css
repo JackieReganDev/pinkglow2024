@@ -3214,7 +3214,9 @@ input, select, textarea {
 			.inner{
 				border-bottom: 2px solid #70480D;
 			}
-
+.left{
+	padding-bottom: 50px;
+}
 /* Wrapper */
 
 	.wrapper {
@@ -3357,6 +3359,9 @@ input, select, textarea {
 			opacity: 1.0;
 		}
 
+#four{
+	height: 500px;
+}
 		.wrapper.fade-down.inactive > .inner,
 		body.is-preload .wrapper.fade-down > .inner {
 			opacity: 0;

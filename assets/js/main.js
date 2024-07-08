@@ -167,6 +167,28 @@
 
 			});
 
+			//contact form.
+
+document.querySelector('form').addEventListener('submit', function(event) {
+  const name = document.querySelector('input[name="name"]').value;
+  const email = document.querySelector('input[name="email"]').value;
+  const message = document.querySelector('textarea[name="message"]').value;
+
+  if (!name || !email || !message) {
+    event.preventDefault();
+    alert('All fields are required.');
+  } else if (!validateEmail(email)) {
+    event.preventDefault();
+    alert('Please enter a valid email address.');
+  }
+});
+
+function validateEmail(email) {
+  const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return re.test(String(email).toLowerCase());
+}
+
+
 	// Features.
 		$('.features')
 			.scrollex({
