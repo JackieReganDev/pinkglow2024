@@ -208,26 +208,27 @@
               <form
                 data-netlify-recaptcha="true"
                 method="post"
-                action="mailto:jackie.meyer802@yahoo.com"
+                action="/success.html"
                 data-netlify="true"
                 name="contact"
               >
+                <input type="hidden" name="form-name" value="contact" />
                 <div class="fields">
                   <div class="field half">
                     <label for="name" required>Name</label>
-                    <input type="text" name="name" id="name" />
+                    <input type="text" name="name" id="name" required />
                   </div>
                   <div class="field half">
                     <label for="email" required>Email</label>
-                    <input type="text" name="email" id="email" />
+                    <input type="email" name="email" id="email" required />
                   </div>
                   <div class="field">
                     <label for="message" required>Message</label>
-                    <textarea name="message" id="message" rows="5"></textarea>
+                    <textarea name="message" id="message" rows="5" required></textarea>
                   </div>
                 </div>
                 <ul class="actions">
-                  <li><a href="success.html" class="button submit">Send Message</a></li>
+                  <li><button type="submit" class="button submit">Send Message</button></li>
                 </ul>
               </form>
               <div data-netlify-recaptcha="true"></div>
